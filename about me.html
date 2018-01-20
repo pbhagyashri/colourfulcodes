@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="Resources/Css Files/style.css"> <!-- css file link --> 
+      <link rel="stylesheet" type="text/css" href="Resources/Css Files/queries.css"> <!-- media query link -->
+      <link rel="stylesheet" type="text/css" href="Vendors/Css/Grid.css"> <!-- grid link -->
+      <link rel="stylesheet" type="text/css" href="Vendors/Css/ionicons.min.css"> <!-- icon link -->
+      <link rel="stylesheet" type="text/css" href="Vendors/Css/stylesheet.css">
+      <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic,300,500' rel='stylesheet' type='text/css'> <!-- google font ubuntu -->
+      <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> <!-- google font lora -->
+      <link data-brackets-id='6932' href="Resources/JS/jquery-ui/jquery-ui.css" rel="stylesheet"> <!-- jQuery ui css file -->
+      
+    <title> Colorful Codes</title>
+        
+    </head>
+    <body>
+           
+            <!----------------------------welcome Section ------------->   
+      
+      <header role="banner">
+        <nav role="navigation">
+            <div class="row clearfix" >
+              <img src="Resources/Images/New%20Logo1.png" alt="colorful codes logo" class="logo" >
+              <div class="buttons clearfix" >
+                <ul class="main-nav js--main-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="resume.html">Resume</a></li>
+                  <li><a href="#">SKILLS</a>
+                    <ul class="sub-nav">
+                      <li><a href="Illustrations.html">ILLUSTRATION</a></li>
+                      <li><a href="3Ddesign.html">3D DESIGN</a></li>
+                      <li><a href="branding.html">BRANDING</a></li>
+                      <li><a href="visualization.html">VISUALIZATION</a></li>
+                      <li><a href="web%20design.html">WEB DESIGN</a></li> 
+                    </ul>    
+                  </li>
+                  <li><a href="about me.html">About Me</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+              </div>
+            </div>
+        </nav>         
+      </header>
+            
+    <!----------------------------welcome Section ------------->     
+      
+      <main role="main">
+        <section class="gears-welcome title-section">
+          <div class="row">
+            <h1 id="heading"> Welcome To Colorful Codes!</h1>   
+            <h2> Here you can explore more about my skills and experties. </h2>
+            <!-- <i class="ion-more"></i> --> 
+          </div>     
+        </section> 
+          
+          
+    <!--------------------Summery Section------------------ -->
+        <section class="about-me-summery js--section-title">
+          <div class="row">
+           
+             
+            
+             <div class="col span-1-of-3 about-summery-block">
+              <img src="Resources/Images/about%20me%20pic1.png" class="summary-photo">
+            </div>
+            
+            <div class="col span-2-of-3 about-summery-block">
+              <p>
+                    I am working as a freelance Web designer and Developer, graphic designer and 3D artist since 2011. During my freelance experience I have worked for many clients and handled a variety of projects. I have had an opportunity to interact with many clients from different disciplines. I can uderstand their requirments and then deliver the work tailored to their needs. I can troublshoot technical problems and reach project deadlines and mentain a good relationship with clients. I love learning new things and always expanding and improving my skills.               
+              </p>
+            </div> 
+          </div>
+        </section>  
+                          
+           
+    <!----------------------------form ----------------------->     
+        <div class="form-section">   
+        <section class="section-form">
+          <div class="row">
+            <h2>I am happy to hear from you!</h2>
+            <h3>send me your requests, questions or just say hello.</h3>
+          </div>
+                
+    <!----------------------------name ----------------------->     
+          <div class="row">
+            <form method="post" action="#" class="contact-form" id="cont-form">
+              <div class="row">
+                <div class="col span-1-of-3">
+                  <label for="name" class="text-color">Name</label>
+                </div>
+                <div class="col span-2-of-3">
+                  <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+              </div>
+                        
+    <!----------------------------email --------------------->     
+            
+              <div class="row">
+                <div class="col span-1-of-3">
+                  <label for="email" class="text-color">Email</label>
+                </div>
+                <div class="col span-2-of-3">
+                  <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+                        
+        <!----------------------------Service ------------->     
+                        
+              <div class="row">
+                <div class="col span-1-of-3">
+                  <label for="service-request" class="text-color">Service request</label>
+                </div>
+                <div class="col span-2-of-3">
+                  <select name="Request a Service" id="service-request">
+                    <option value="Web-design" selected>Web design and development</option>
+                    <option value="Illustration">Illustration</option>
+                    <option value="3D design">3d&#8208;design</option>
+                    <option value="Branding & Graphic">Branding &#38; Graphics</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>                
+              </div>
+                        
+        <!----------------------------message ------------->                 
+                        
+              <div class="row">
+                <div class="col span-1-of-3">
+                  <label class="text-color">Drop me a line!</label>
+                </div>
+                <div class="col span-2-of-3">
+                  <textarea name="Message" placeholder="Your Message"></textarea>
+                </div> 
+              </div>     
+        
+        <!----------------------------send ------------->                    
+                             
+              <div class="row">
+                <div class="col span-1-of-3">
+                  <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                  <input type="submit" id="submitButton" value="Send it!">
+                </div>
+              </div>
+            </form>    
+          </div>
+        </section>
+      </div>
+      
+        <div class="row">
+            <div class="col span-1-of-1 drag-ground" id="draggable">
+                drag me!
+            </div>
+        </div>                                             
+                                                   
+      </main>
+                                                    
+            <!----------------------------Footer ------------->
+      <footer role="contentinfo">
+        <div class="row">
+          <div class=" col span-1-of-3 footer-box">
+            <ul class="footer-nav first-nav">
+              <li><a href="about%20me.html"> Colorful Codes </a> </li>
+              <li><a href="about%20me.html"> About Me </a> </li>
+              <li><a href="resume.html"> Resume </a> </li>
+              <li><a href="index.html"> Home </a> </li>       
+            </ul>
+          </div>
+          
+          <div class=" col span-1-of-3 footer-box">
+            <ul class="footer-nav third-nav">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">267-799-6755</a></li>
+                <li><a href="#">bhagyashri.padmawar@gmail.com</a></li>  
+            </ul>
+          </div>
+          
+          <div class=" col span-1-of-3 footer-box">
+            <ul class="footer-nav second-nav">
+                <li><a href="#">Follow Me On</a></li>
+              <li><a href="#"><i class="ion-social-facebook"></i></a></li> 
+              <li><a href="https://www.linkedin.com/in/bhagyashri-padmawar-16433126" i class="ion-social-linkedin-outline" target="_blank"></a> </li>   
+            </ul>
+          </div>
+        </div>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="Vendors/JS/jquery.waypoints.min.js"></script>
+    <script src="Resources/JS/script.js"></script>
+    <script data-brackets-id='7413' src="Resources/JS/jquery-ui/jquery-ui.js"></script>      
+    </body>
+  </html>
+

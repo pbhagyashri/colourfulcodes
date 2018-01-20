@@ -1,0 +1,821 @@
+
+/* big tablet to 1200px */
+
+@media only screen and (max-width: 1200px){
+    
+   
+     
+    
+}
+
+ @media only screen and (max-width:1121px){
+    
+    .web-section .cup-nav{ margin-left: 3%;}
+     
+    .timeline .panel-content{ padding: 115px 10px 0px 40px;}
+    
+    .event h5{ 
+    width: 13%;
+    margin-left: 43%;  
+    }  
+        
+    
+}
+
+ @media only screen and (max-width:1105px){
+    
+    .cup-nav li, .cup-nav-two li{ margin-left: 17px;}
+     
+    .web-section .cupcake-logo{ margin-left: 37%;}  
+}
+
+@media only screen and (max-width: 1095px){
+    
+    .web-section .cupcake-logo{
+        width:22%; 
+        margin: 1% 38%;                           
+}
+
+}    
+    
+@media only screen and (max-width:1065px),
+@media only screen and (max-width:1056px),
+@media only screen and (max-width:1046px){
+      
+    .cup-nav li, .cup-nav-two li{ margin-left: 14px;}
+         
+    }    
+
+
+
+/*  small tablets to big tablets from 970px to 1024px */
+
+@media only screen and (max-width:1023px){
+    
+    body{font-size: 18px;}
+    .title-section h1, h2{ padding-top: 20px; }
+    
+    .entries h2{  padding-top: 30px; }
+    
+    .left .entries  li{ width: 160%; }
+    
+    .right .entries  li{ width: 150%; }
+    
+    
+    .resume-icons, .main-icon{ margin-top: 30px;}  
+
+    .digestive-sys img{
+    
+        width: 87%;
+        margin-left: 6.2%;
+        
+} 
+    
+    .tools-skills h3:after{
+   
+    width:180px;
+    margin: 10px 12px;
+             
+ }
+    
+    
+    .cup-nav li, .cup-nav-two li{ margin-left: 16px;}
+    
+    .web-section .cupcake-logo{
+        width:22%; 
+        margin: 1% 38%;                           
+}
+    
+    .gear-section .col:first-child{
+        display: inline-block;
+        margin-left: 35px;
+
+}
+
+    .gear-section .col:first-child{
+        display: inline-block;
+        margin-left: 32px;
+
+}
+    
+    
+    .box-five h2 a:link,
+    .box-five h2 a:visited,
+    .box-two h2 a:link,
+    .box-two h2 a:visited{
+
+        margin-left: -13px;
+        display: inline-block;
+        width: 120%;         
+    }
+    
+    .timeline nav{top: 535px;}
+    
+    
+    }
+
+
+/*  small tablets to big tablets from 768px to 970px */
+
+@media only screen and (max-width:969px){
+        
+    body{font-size: 16px;}
+       
+    header .main-nav{ 
+            
+        margin-top: 6.2%;
+        margin-right: 3%;
+    }
+    
+    
+    .resume-block h3{ margin: 13% 0 0 50%; }
+    
+    .left .entries{ margin-bottom: 30px; }
+
+    .highlights h2{ 
+      
+        font-size: 150%;
+        padding-top: 45px;
+    
+    }
+        
+    .illustration-section  .babies img, .illustration-section  .vege img{
+    
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+    
+}
+    
+    .digestive-sys img{ 
+        
+        margin-left: 6%; 
+        width:88%
+    }
+
+    .viz-section .heart img{ margin-left:13%; }
+
+    .tools-skills h3:after{
+        width:160px;
+        margin: 10px 13px;             
+ }
+    
+    .gear-section .col:first-child{
+        display: inline-block;
+        margin-left: 24px;
+
+}
+    
+
+    
+    .about-me-summery p{
+        width: 65%;
+        margin: 2.5% 0 0% 15%;
+
+}
+    .summary-photo{width: 60%;}
+    
+    .timeline .panel-content{ padding: 120px 10px 0px 40px;}
+    
+    
+}
+
+@media only screen and (max-width: 676px){
+    
+    .cup-nav-two{ margin-right: 0.5%; }
+}
+
+
+/* small phones to small tablets from 481px to 767px */
+
+@media only screen and (max-width:767px){
+
+    body{font-size: 16px;}
+
+    header .logo{ 
+        margin-top: 5%;
+        width: 30%
+    }
+    
+    header{height: 160px;}
+    
+    .resume-block h3{ margin: 16% 0 0 50%; }    
+
+    .entries h2{ margin: 30px 0; }
+
+    .resume-block p{
+
+        margin: 10px 25px;
+        width:80%;
+
+    }
+
+    .about-me-list h2{ margin: 0px 20px; }    
+
+    .about-me-list{ margin: -20px 0px; }
+
+    .about-me-list li{
+
+        margin: 20px  20px; 
+        font-size: 85%;     
+    }
+
+
+    .cont{ display:none; }
+
+    .left .entries  li{ width: 110%; }
+
+    .right .entries li{ width: 180%; }
+
+    .right .entries:last-child{
+        margin-bottom: 75px;
+    }
+
+    .left h1{
+        font-size: 120%;
+        width:80%;     
+        margin-left: 10%;      
+    }
+
+    .welcome-section, .title-section{ height: 180px; }  
+
+    .highlights h2{ font-size: 150%; }
+
+    .illustration-section  .babies img, .illustration-section  .vege img{
+        background-color: rgba(0, 0, 0, 0);
+        width: 120%;
+    } 
+
+    .illustration-section  .vege img{ width: 100%;} 
+
+    .digestive-sys img{ 
+        margin-left: 6%;
+        width:88%
+    }
+
+    .viz-section .heart img{ margin-left:13%; }
+
+    .tools-skills h3:after{
+        width:155px;
+        margin: 10px 0;             
+     }
+
+    .web-section .cup-nav, .cup-nav-two{ margin-top: 5%; }
+
+    .web-section .cupcake-logo{
+        width:24%; 
+        margin: 3% 38%;
+        padding-bottom: 0;      
+    }    
+
+    .gear-box h2 a:link,
+    .gear-box h2 a:visited{ font-size: 90%;}
+
+    .box-three h2 a:link,
+    .box-three h2 a:visited,
+    .box-four h2 a:link,
+    .box-four h2 a:visited,
+    .box-five h2 a:link,
+    .box-five h2 a:visited,
+    .box-two h2 a:link,
+    .box-two h2 a:visited,
+    .box-one h2 a:link,
+    .box-one h2 a:visited{
+        margin-left: -10px;
+        display: inline-block;
+        width: 120%;         
+    }
+
+    .about-me-summery p{ width: 80%;}
+
+    .summary-photo{
+       width: 75%;
+       margin:18% 0 0 40%;
+       border-radius: 45% 45%;
+    }
+
+    .section-form{
+        width:92%;
+        margin-left: 5%;    
+    }
+    .flav{width:100px;}
+
+    .highlights .first h3:after{
+        width:75%;
+        margin-left: 25%;
+    }
+
+    .highlights .second h3:after{
+        width:105%;
+        margin-top: 5px;
+        background-color:#1c617b;    
+    }
+
+    .mobile-nav-icon{display:inline-block;}    
+
+    header .main-nav{
+        float:left;
+        margin-left: 50px;
+        margin-top: 4%;
+       display: none;
+    }
+
+
+    header .main-nav li{
+        display: block;
+        text-align: right;
+        padding-bottom: 10.9px;
+    }
+
+    header .main-nav li:nth-child(3):hover .sub-nav li{ display:block;}
+     
+    header .sub-nav{
+        margin-left: 95px;
+        position:absolute;
+        padding-left: 10px;
+        border-left: 2px solid #1c617b;
+    }
+
+    header .sub-nav li{
+        text-align: left;
+        padding: 2px 0px;
+        font-size: 100%;
+    }
+    
+    .sub-nav li:first-child{padding-top: 0px;}
+
+    .sub-nav a:link,
+    .sub-nav a:visited{
+   
+        
+    background-color: rgba(34, 19, 36, 0);     
+    padding: 0px 0px;  
+    -webkit-transition: all 0.2s;  
+    transition: all 0.2s;    
+}
+    
+    header .main-nav  a:hover,
+    header .main-nav  a:active{
+
+        border-bottom: 0; 
+        color:#1c617b; 
+        padding-bottom: 6px;
+    }
+    
+    header .sub-nav a:hover,
+    header .sub-nav a:active{
+
+    border: 0px;    
+    letter-spacing: 0.11em;
+    background-color:rgba(255, 255, 255, 0);  
+      
+}
+    .sticky .main-nav{margin-top: 2%;}
+    
+    .sticky .sub-nav{margin-top: -14.1px;}
+    
+
+
+    }
+
+    /* small phones from 0 to 480px */
+
+    @media only screen and (max-width: 480px){
+
+    body{font-size: 16px;}
+
+    header .logo,
+    header .sticky .logo{ 
+        width: 32%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+        
+    .resume-block h3{ margin: 0 0 0 28%; }
+
+    .resume-block p{
+
+        margin: 10px 15%;
+        width:70%;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .resume-block p:after{
+
+        width:465px;
+        margin-left: -22%;        
+    } 
+
+    .about-me-list:after{
+
+        width:500px;
+        margin-top: 6%;
+        margin-left: -9%;
+
+    }    
+
+    .about-me-list li{
+
+       margin: 20px  10px; 
+       font-size: 100%;     
+    } 
+
+    .about-me-list h2{ 
+
+        margin-left: 8px;
+        margin-top: 30px;
+    }    
+
+
+    .about-me-list{ margin: -20px 30px; }    
+
+    .left h1{
+
+       font-size: 120%;
+       width:80%;     
+       margin-left: 8%;
+       word-spacing: 1em;
+       text-align: center;              
+    }  
+
+    .left .entries  li{ width: 230%; }
+
+    .right .entries li{
+
+        width: 265%;
+        margin-left: -50px;
+    }
+
+    .right .entries:nth-child(odd):after, .right .entries:nth-child(2):after {
+
+        width:550px;
+        margin-left: -95%;
+        margin-top: 50px;
+    }
+
+    .illustration-section  .babies img, .illustration-section  .vege img{
+
+        background-color: rgba(0, 0, 0, 0);
+        width: 85%;
+    } 
+
+
+    .illustration-section .snake img{ margin: 20px 2.32%; } 
+
+    .highlights-sub-list li{ padding-left: 10px; }
+
+        .resume-block .my-pic{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 7%;
+    }
+
+    .resume-body-section .right{ margin-top: 20px; }
+
+    .resume-body-section .left{ margin-top: 20px; }
+
+    #flyer{ margin-top: -20px; }
+
+    .branding-section .card{ margin-top: 5%;}
+
+    .digestive-sys img{ 
+
+        margin-left: 13%; 
+        width:75%
+    }
+
+
+    .tools-skills h3{
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .web-highlights h2{
+
+        font-size: 160%;
+        width:30%;
+        margin-left: 36%;
+        padding-top: 20px; 
+    }
+
+    .tools-skills li{ margin-left: 44%; }
+
+    .tools-skills h3:after{
+        width:150px;
+        margin: 0 0;             
+     }
+
+    .cup-nav-two{display: none;}
+
+    .web-section .cup-nav{ display:none;}
+
+    .web-section .cupcake-logo{
+        width:44%; 
+        margin: 1% 28%;   
+    }
+    .web-section{ height: 250px; }
+
+    .gear-section .col:first-child{
+
+        display: inline-block;
+        margin-left: 0px;
+    }
+
+    .gear-section .gear-box{
+        margin-top: 20px;
+        margin-bottom: 0;
+        height:200px;
+        border: 0.5px solid #ccc;
+        width: 200px;
+    }
+
+    .gear-section .gear-box:nth-child(odd){ margin-left: 30px; }
+
+
+    .gear-section .gear-box:last-child{ 
+
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .gear-section h2{ margin-top: 90px; }
+
+    .resume-block h4{
+        margin-left: -50px;
+        margin-top: 14px;
+        font-weight: 100;
+        font-size: 80%;
+        text-align: center;
+    }
+
+    .footer-nav{ margin:1% 0 1% 6%;} 
+
+
+
+    .first-nav li:first-child,
+    .second-nav li:first-child,
+    .third-nav li:first-child{ margin-bottom: 3px; }
+   
+    .web-footer h4{ display: none; }
+    .web-footer .cup-icon{ margin-top: 30%; }
+    .web-footer .cup-icon li{ margin-left: 15px; }
+    .cupcake-gallery img{
+        width:95%;
+        margin: 2.55% 2.55%;
+    }
+
+    .summary-photo{
+        width: 35%;
+        margin:2.5% 0 0 15%;
+        border-radius: 50% 50%;
+    }
+
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width:100%;
+        margin: 3% 0;    
+
+    }
+    .about-me-summery p{
+        width: 80%;
+        margin: 2.5% 10% 0% 10%;    
+    }
+
+    .summary-photo{
+        width: 25%;
+        margin:2% 0 0 60%;
+        border-radius: 45% 45%;
+    }
+
+    input[type=submit]{ margin-left: 67%; }
+
+    .web-footer{ height:140px; }
+    .web-footer .cup-icon li{ margin-top: 0; }
+    .web-footer .cup-icon{ margin-top: 13%; }
+
+    .title-section h1{ 
+        width:90%; 
+        margin-left:5%;
+        padding-top: 0px;    
+    }
+
+    .title-section h2{
+        width: 95%;
+        margin-left:2.5%;    
+    }
+
+    .highlights .first h3{ width: 125%;}
+
+    .highlights .first h3:after{
+        width:98%;
+        margin-top: 5px;
+        margin-left: 2%;         
+    }
+
+    .highlights .second h3:after{
+        width:165%;
+        margin-top: 5px;
+        background-color:#1c617b;    
+    }
+
+    .highlights .first li{ margin-right: -40px; }
+
+    .timeline h1{top: 30px; } 
+
+    .timeline .panel-container{
+
+        margin: 0px;
+        background-color: #6c526f;    
+        height: auto;
+    }
+
+    .timeline .panel-slider{
+        position: static;
+        height:auto;    
+    }
+
+    .timeline .panel{
+        width: auto;
+        height: auto;
+        position: static;
+        border-top: 1px solid rgba(255, 255, 255, 0.21);
+        padding-bottom: 20px;
+    }
+
+    .timeline .panel-content img{
+        margin-left:-11%;
+        width: 120%;
+    }
+
+
+    .timeline .panel-content{ padding: 1px 10px 0px 40px;}
+
+    .first-panel{ padding-top: 70px;}
+    .first-panel h2{padding-top: 60px;}    
+
+    .timeline .panel-content p{
+        color: #221324;
+        margin-left: -10px; 
+    }
+
+    .timeline nav{ display: none;}    
+    .timeline .background-slider{display: none;}
+
+    .timeline h1{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+        top: 15px;
+        width: 100%;
+        margin: 0;
+        color: #221324;
+        letter-spacing: 0.2em;
+
+    }    
+
+    .event h5{ 
+        width: 23%;
+        margin-left: 39%;  
+    } 
+
+    .footer-list li{margin-top: 60px;}
+    .mobile-nav-icon{display:inline-block;}    
+
+    header .main-nav,
+    header .sticky .main-nav{
+        float:left;
+        margin-left: 0px;
+        margin-top: 5.5%;
+        display: none;
+    }
+    
+    header .sticky .main-nav{ margin-top: 2.5%;}
+
+    header .main-nav li{
+        display: block;
+        text-align: right;
+        padding-bottom: 13px;
+        font-size:85%;
+    }
+    
+    header .main-nav li:nth-child(3):hover .sub-nav li{display:block;}
+
+    header .sub-nav{
+        margin-left: 82px;
+        position:absolute;
+        top: 24.5px;
+        border-left: 2px solid #1c617b;
+        padding-left: 3px;
+    }
+        
+    header .sticky .sub-nav{
+        top: 26px;
+        padding-left: 10px;
+        }
+
+    header .sub-nav li{
+        text-align: left;
+        padding: 3px 0px;
+        font-size: 105%;
+    }
+    
+    .sub-nav li:first-child{padding-top: 0px;}
+
+    .sub-nav a:link,
+    .sub-nav a:visited{    
+    background-color: rgba(34, 19, 36, 0);     
+    padding: 0px 0px;  
+    -webkit-transition: all 0.2s;  
+    transition: all 0.2s;    
+}
+    
+    header .main-nav  a:hover,
+    header .main-nav  a:active{
+
+        border-bottom: 0; 
+        color:#1c617b; 
+        padding-bottom: 6px;
+    }
+    
+    header .sub-nav a:hover,
+    header .sub-nav a:active{
+
+    border: 0px;    
+    letter-spacing: 0.11em;
+    background-color:rgba(255, 255, 255, 0);  
+    }
+   
+
+}
+  
+
+
+@media only screen and (max-width: 444px){
+    
+    
+    .mobile-nav-icon{ padding-right: 10px;}    
+  
+    header .sticky .sub-nav{top: 25px;}
+    
+    .gear-section .gear-box,
+    .gear-section .gear-box:last-child{
+        
+        height:350px;
+        width: 350px;
+        margin-left: 40px; 
+    }
+    
+    .gear-section .gear-box:nth-child(odd){ margin-left: 40px; }
+    .web-footer .cup-icon li{margin-top:4%;}
+        
+}
+
+@media only screen and (max-width: 427px){
+    
+    .mobile-nav-icon{ padding-right: 10px;}    
+  
+    header .sticky .sub-nav{top: 25px;}
+    
+    .gear-section .gear-box,
+    .gear-section .gear-box:last-child,
+    .gear-section .gear-box:nth-child(odd){
+        
+        height:350px;
+        width: 350px;
+        margin-left: 17px; 
+    }
+    
+    header .main-nav{margin-top: 6.5%;}
+    
+    .web-footer .cup-icon li{
+    
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 7%;
+}
+
+    .footer-list li{
+        margin-left: 8px;
+        font-size: 120%;
+    }
+    
+    .gear-section h2{
+    
+    font-size: 150%;
+    margin-top: 150px;
+    text-align: center;  
+    width: 60%; 
+    margin-left: 16%; 
+}
+
+    .event h5{
+    width: 28%;
+    margin-left: 34.3%; 
+}
+    
+    
+    
+}
+
+
+    
